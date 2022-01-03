@@ -1,0 +1,158 @@
+body {
+    background-image: linear-gradient(
+      to right top,
+      #68a9b4,
+      #c39ddf,
+      #d6bdbd,
+      #7fafe9,
+      #4f3f74
+    );
+    padding: 0;
+    margin: 0;
+    padding-top: 25px;
+    background-size: cover;
+  }
+  .searchbtn {
+    margin: auto;
+    width: 400px;
+  }
+  .mainsection {
+    display: flex;
+    margin: 50px;
+    height: 100%;
+    padding: 30px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+  }
+  .MainCard {
+    height: 450px;
+  }
+  .subCard {
+    border: 2px solid white;
+    height: 400px;
+    margin: 5px;
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+  }
+  .Text1 {
+    height: 200px;
+    width: 291px;
+    background-image: linear-gradient(
+      to right top,
+      #8c6bc9,
+      #665060,
+      #d4afc5,
+      #77686f,
+      #da5555
+    );
+  }
+  .banner-image {
+    height: 200px;
+    background: url("https://i.pinimg.com/originals/c4/4f/27/c44f27f0a6c7bcbb44ff24bb1c83a39b.png");
+    background-size: cover;
+    background-position: center;
+    width: 290px;
+  }
+  .banner-dance-image {
+    height: 200px;
+    background: url("https://cdn5.vectorstock.com/i/1000x1000/53/19/layout-poster-template-design-for-sport-event-vector-24375319.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 290px;
+  }
+  .banner-cook-image {
+    height: 200px;
+    background: url("https://i.pinimg.com/originals/0c/98/e7/0c98e77eca75c3ace2e93a27961912ee.png");
+    background-size: cover;
+    background-position: center;
+    width: 290px;
+  }
+  .banner-game-image {
+    height: 200px;
+    background: url("https://cdn2.vectorstock.com/i/1000x1000/48/31/modern-design-event-poster-with-3d-flow-shape-vector-31614831.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 290px;
+  }
+  .banner-code-image {
+    height: 200px;
+    background: url("https://media.istockphoto.com/vectors/design-template-for-event-poster-vector-id1148149951");
+    background-size: cover;
+    background-position: center;
+    width: 290px;
+  }
+  .banner-Draw-image {
+    height: 200px;
+    background: url("https://i.pinimg.com/originals/da/d9/88/dad988e62571a890836b51d795906b2a.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 290px;
+  }
+  .Text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    color: #ffffff;
+  }
+  .Event-name {
+    margin: auto;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+  }
+  @media (min-width: 600px) {
+    .MainCard {
+      height: 350px;
+      /* border: 2px solid white; */
+    }
+    .subCard {
+      width: 438px;
+      height: 223px;
+      border-radius: 20px;
+      flex-direction: row;
+      margin-top: 27px;
+    }
+    .Text1 {
+      height: 220px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    .banner-image {
+      height: 220px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    .banner-dance-image {
+      height: 220px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+  
+    .banner-cook-image {
+      height: 220px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    .banner-game-image {
+      height: 220px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    .banner-code-image {
+      height: 220px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    .banner-Draw-image {
+      height: 220px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    .mainsection {
+      flex-direction: row;
+    }
+  }
+  
